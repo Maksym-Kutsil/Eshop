@@ -1,0 +1,29 @@
+.popup_container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+
+    .popup {
+        padding: 30px;
+        background-color: rgb(2,23,54);
+        color: white;
+        border-radius: 15px;
+        font-size: 18px;
+        animation: appearance 0.3s ease-in-out;
+    }
+}
+
+@keyframes appearance {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}

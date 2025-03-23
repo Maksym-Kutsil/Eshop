@@ -1,0 +1,527 @@
+[
+  {
+    "id": "1",
+    "title": "Apple iPhone 15",
+    "description": "Новий iPhone 15 з покращеною камерою та потужним процесором A16 Bionic.",
+    "category": "smartphone",
+    "image": "https://content1.rozetka.com.ua/goods/images/big_tile/517823183.jpg",
+    "available": true,
+    "isLiked": false,
+    "variants": {
+      "color": [
+        "чорний",
+        "білий",
+        "синій"
+      ],
+      "storage": [
+        "128GB",
+        "256GB",
+        "512GB"
+      ]
+    },
+    "price": 44999,
+    "comments": [
+      {
+        "user": "Олександр",
+        "text": "Чудовий телефон, швидкий та з гарною камерою!",
+        "rating": 5
+      },
+      {
+        "user": "Марина",
+        "text": "Дорогий, але вартий своїх грошей!",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Dell XPS 15",
+    "description": "Потужний ультрабук із екраном 4K та процесором Intel i7.",
+    "category": "laptop",
+    "image": "https://content2.rozetka.com.ua/goods/images/big_tile/509794846.jpg",
+    "available": false,
+    "isLiked": true,
+    "variants": {
+      "ram": [
+        "16GB",
+        "32GB"
+      ],
+      "storage": [
+        "512GB SSD",
+        "1TB SSD"
+      ]
+    },
+    "price": 52999,
+    "comments": [
+      {
+        "user": "Іван",
+        "text": "Дуже гарний екран та тривалий час роботи від батареї.",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Samsung Galaxy Tab S9",
+    "description": "Флагманський планшет Samsung з дисплеєм Dynamic AMOLED 2X.",
+    "category": "tablet",
+    "image": "https://content2.rozetka.com.ua/goods/images/big/368597143.jpg",
+    "available": true,
+    "isLiked": false,
+    "variants": {
+      "color": [
+        "сірий",
+        "синій"
+      ],
+      "storage": [
+        "128GB",
+        "256GB"
+      ]
+    },
+    "price": 29999,
+    "comments": [
+      {
+        "user": "Андрій",
+        "text": "Дуже зручний для роботи та розваг.",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Apple Watch Series 9",
+    "description": "Новий розумний годинник з потужним чіпом S9 та підтримкою здоров'я.",
+    "category": "smartwatch",
+    "image": "https://content2.rozetka.com.ua/goods/images/big/487780604.jpg",
+    "available": true,
+    "isLiked": false,
+    "variants": {
+      "color": [
+        "чорний",
+        "срібний"
+      ],
+      "strap": [
+        "силікон",
+        "метал"
+      ]
+    },
+    "price": 14999,
+    "comments": [
+      {
+        "user": "Влад",
+        "text": "Гарна автономність та багато функцій!",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "title": "LG OLED C2",
+    "description": "Високоякісний OLED телевізор з підтримкою Dolby Vision та 120Hz.",
+    "category": "tv",
+    "image": "https://media.us.lg.com/transform/ecomm-PDPGallery-1100x730/9b376d4b-b366-49d4-bb77-36c2c0a1c45c/md08001960-DZ_01-jpg",
+    "available": true,
+    "isLiked": false,
+    "variants": {
+      "size": [
+        "55 дюймів",
+        "65 дюймів",
+        "77 дюймів"
+      ]
+    },
+    "price": 54999,
+    "comments": [
+      {
+        "user": "Дарина",
+        "text": "Дуже яскравий екран, відмінна якість зображення!",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "title": "Samsung Galaxy S23",
+    "description": "Найновіший смартфон Samsung з дисплеєм 120Hz та процесором Snapdragon 8 Gen 2.",
+    "category": "smartphone",
+    "image": "https://content2.rozetka.com.ua/goods/images/big/517130215.jpg",
+    "available": true,
+    "isLiked": false,
+    "variants": {
+      "color": [
+        "чорний",
+        "блакитний",
+        "пурпурний"
+      ],
+      "storage": [
+        "128GB",
+        "256GB",
+        "512GB"
+      ]
+    },
+    "price": 43999,
+    "comments": [
+      {
+        "user": "Тарас",
+        "text": "Чудовий смартфон з чудовою камерою.",
+        "rating": 5
+      },
+      {
+        "user": "Олена",
+        "text": "Вартий своєї ціни, але на мою думку, батарея не така довговічна.",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "title": "MacBook Pro 16",
+    "description": "Потужний ноутбук з дисплеєм Retina та процесором M1 Pro.",
+    "category": "laptop",
+    "image": "https://content.rozetka.com.ua/goods/images/big/485311804.jpg",
+    "available": true,
+    "isLiked": true,
+    "variants": {
+      "ram": [
+        "16GB",
+        "32GB"
+      ],
+      "storage": [
+        "512GB SSD",
+        "1TB SSD"
+      ]
+    },
+    "price": 74999,
+    "comments": [
+      {
+        "user": "Дмитро",
+        "text": "Прекрасний ноутбук для роботи з графікою.",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "title": "Lenovo ThinkPad X1 Carbon",
+    "description": "Легкий та потужний ультрабук з дисплеєм 4K та процесором Intel i7.",
+    "category": "laptop",
+    "image": "https://content.rozetka.com.ua/goods/images/big/434721332.jpg",
+    "available": false,
+    "isLiked": false,
+    "variants": {
+      "ram": [
+        "16GB",
+        "32GB"
+      ],
+      "storage": [
+        "512GB SSD",
+        "1TB SSD"
+      ]
+    },
+    "price": 52999,
+    "comments": [
+      {
+        "user": "Катерина",
+        "text": "Швидкий, легкий і надійний.",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "title": "Huawei MatePad Pro",
+    "description": "Потужний планшет з екраном 10.8 дюймів і процесором Kirin 990.",
+    "category": "tablet",
+    "image": "https://content.rozetka.com.ua/goods/images/big/491918032.jpg",
+    "available": true,
+    "isLiked": true,
+    "variants": {
+      "color": [
+        "сірий",
+        "срібний"
+      ],
+      "storage": [
+        "128GB",
+        "256GB"
+      ]
+    },
+    "price": 17999,
+    "comments": [
+      {
+        "user": "Анна",
+        "text": "Ідеальний планшет для роботи та мультимедіа.",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "title": "Fitbit Charge 5",
+    "description": "Розумний браслет для моніторингу здоров'я з функцією ECG.",
+    "category": "smartwatch",
+    "image": "https://content.rozetka.com.ua/goods/images/big/471576800.jpg",
+    "available": true,
+    "isLiked": false,
+    "variants": {
+      "color": [
+        "чорний",
+        "білий"
+      ],
+      "strap": [
+        "силікон",
+        "тканина"
+      ]
+    },
+    "price": 4999,
+    "comments": [
+      {
+        "user": "Ігор",
+        "text": "Чудова автономність і зручний в носці.",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "title": "Sony WH-1000XM5",
+    "description": "Безпровідні навушники з активним шумозаглушенням та довгим часом роботи.",
+    "category": "audio",
+    "image": "https://content2.rozetka.com.ua/goods/images/big/496254817.jpg",
+    "available": true,
+    "isLiked": false,
+    "variants": {
+      "color": [
+        "чорний",
+        "срібний"
+      ]
+    },
+    "price": 8999,
+    "comments": [
+      {
+        "user": "Сергій",
+        "text": "Чудова якість звуку та шумозаглушення!",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "title": "Samsung QLED Q90T",
+    "description": "Телевізор з 4K роздільною здатністю та підтримкою HDR10+.",
+    "category": "tv",
+    "image": "https://content2.rozetka.com.ua/goods/images/big/491739237.jpg",
+    "available": false,
+    "isLiked": true,
+    "variants": {
+      "size": [
+        "55 дюймів",
+        "65 дюймів",
+        "75 дюймів"
+      ]
+    },
+    "price": 64999,
+    "comments": [
+      {
+        "user": "Максим",
+        "text": "Неймовірна якість зображення, рекомендую!",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": "13",
+    "title": "Sony PlayStation 5",
+    "description": "Консоль нового покоління з підтримкою 4K та швидким SSD.",
+    "category": "gaming",
+    "image": "https://content1.rozetka.com.ua/goods/images/big/465776109.jpg",
+    "available": true,
+    "isLiked": true,
+    "variants": {
+      "color": [
+        "білий"
+      ],
+      "storage": [
+        "825GB SSD"
+      ]
+    },
+    "price": 21999,
+    "comments": [
+      {
+        "user": "Юрій",
+        "text": "Неймовірно потужна консоль, ігор безліч!",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": "14",
+    "title": "Razer Kraken V3",
+    "description": "Геймерські навушники з підтримкою 7.1 surround sound та RGB підсвіткою.",
+    "category": "audio",
+    "image": "https://content2.rozetka.com.ua/goods/images/big/177597481.jpg",
+    "available": true,
+    "isLiked": false,
+    "variants": {
+      "color": [
+        "чорний",
+        "зелений"
+      ]
+    },
+    "price": 3999,
+    "comments": [
+      {
+        "user": "Ірина",
+        "text": "Зручні навушники для тривалих ігор, хороший звук.",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": "15",
+    "title": "Nintendo Switch OLED",
+    "description": "Портативна консоль з OLED екраном та можливістю підключення до телевізора.",
+    "category": "gaming",
+    "image": "https://content1.rozetka.com.ua/goods/images/big/244514262.jpg",
+    "available": true,
+    "isLiked": false,
+    "variants": {
+      "color": [
+        "білий",
+        "чорний"
+      ],
+      "storage": [
+        "64GB"
+      ]
+    },
+    "price": 14999,
+    "comments": [
+      {
+        "user": "Марко",
+        "text": "Чудова консоль для подорожей та вечорів з друзями.",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": "16",
+    "title": "Microsoft Surface Laptop 5",
+    "description": "Легкий ноутбук з дисплеєм PixelSense та потужним процесором Intel i5.",
+    "category": "laptop",
+    "image": "https://content.rozetka.com.ua/goods/images/big/518067039.jpg",
+    "available": true,
+    "isLiked": true,
+    "variants": {
+      "ram": [
+        "8GB",
+        "16GB"
+      ],
+      "storage": [
+        "256GB SSD",
+        "512GB SSD"
+      ]
+    },
+    "price": 34999,
+    "comments": [
+      {
+        "user": "Оксана",
+        "text": "Чудовий ноутбук для роботи та навчання.",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": "17",
+    "title": "Bose QuietComfort 45",
+    "description": "Безпровідні навушники з активним шумозаглушенням та відмінною якістю звуку.",
+    "category": "audio",
+    "image": "https://content2.rozetka.com.ua/goods/images/big/417973789.jpg",
+    "available": true,
+    "isLiked": false,
+    "variants": {
+      "color": [
+        "чорний",
+        "срібний"
+      ]
+    },
+    "price": 11999,
+    "comments": [
+      {
+        "user": "Денис",
+        "text": "Кращі навушники для мандрівників та любителів музики.",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": "18",
+    "title": "Samsung Galaxy Watch 5",
+    "description": "Розумний годинник з підтримкою функцій здоров'я та екраном AMOLED.",
+    "category": "smartwatch",
+    "image": "https://content1.rozetka.com.ua/goods/images/big/512325680.jpg",
+    "available": true,
+    "isLiked": false,
+    "variants": {
+      "color": [
+        "чорний",
+        "срібний"
+      ],
+      "strap": [
+        "силикон"
+      ]
+    },
+    "price": 10999,
+    "comments": [
+      {
+        "user": "Михайло",
+        "text": "Гарний дизайн та багато корисних функцій для здоров'я.",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "id": "19",
+    "title": "JBL Charge 5",
+    "description": "Портативна Bluetooth колонка з потужним звуком та водонепроникністю.",
+    "category": "audio",
+    "image": "https://content1.rozetka.com.ua/goods/images/big/340907924.jpg",
+    "available": true,
+    "isLiked": true,
+    "variants": {
+      "color": [
+        "чорний",
+        "синій",
+        "червоний"
+      ]
+    },
+    "price": 7999,
+    "comments": [
+      {
+        "user": "Софія",
+        "text": "Неймовірний звук і довгий час роботи, ідеально для пляжу.",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": "20",
+    "title": "Anker PowerCore 10000",
+    "description": "Компактний Power Bank з потужністю 10000mAh для зарядки вашого пристрою.",
+    "category": "accessories",
+    "image": "https://content1.rozetka.com.ua/goods/images/big/486862757.png",
+    "available": true,
+    "isLiked": false,
+    "variants": {
+      "color": [
+        "чорний",
+        "синій"
+      ]
+    },
+    "price": 899,
+    "comments": [
+      {
+        "user": "Ілля",
+        "text": "Маленький, але потужний. Ідеально для подорожей.",
+        "rating": 5
+      }
+    ]
+  }
+]

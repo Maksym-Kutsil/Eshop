@@ -1,0 +1,34 @@
+.skeleton_loader {
+  position: relative;
+  height: 391px;
+
+  @media (max-width: 480px) {
+    width: 100%;
+}
+}
+.skeleton_loader:after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-repeat: no-repeat;
+  background-image: linear-gradient( 90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0) 100% ), 
+      linear-gradient(#aaaaaa 220px, transparent 0), 
+      linear-gradient(#aaaaaa 20px, transparent 0), 
+      linear-gradient(#aaaaaa 20px, transparent 0), 
+      linear-gradient(#aaaaaa 20px, transparent 0), 
+      linear-gradient(#aaaaaa 22px, transparent 0), 
+    linear-gradient(#ffffff 100%, transparent 0);
+  background-size: 131px 100%, 220px 220px, 220px 20px, 220px 20px, 54px 20px, 22px 22px, 100% 100%;
+  background-position: 0 0 , 19px 37px, 19px 278px, 19px 309px, 19px 346px, 239px 344px, 0 0;
+  animation: skeleton-animation 2000ms infinite;
+}
+
+@keyframes skeleton-animation {
+  to {
+    background-position: 100% 0, 19px 37px, 19px 278px, 19px 309px, 19px 346px, 239px 344px, 0 0;
+  }
+}

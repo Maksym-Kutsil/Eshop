@@ -1,0 +1,202 @@
+.navigation_panel {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+    background: #fff;
+    gap: 30px;
+
+    @media (max-width: 450px) {
+        flex-wrap: wrap;
+    }
+
+    &_left {
+        img {
+            width: 40px;
+            height: 40px;
+        }
+    }
+
+    &_center {
+        div {
+            display: flex;
+            align-items: center;
+            padding: 6px 7px;
+            font-size: 16px;
+            border: 2px solid #007bff;
+            border-radius: 25px;
+            outline: none;
+            transition: all 0.3s ease-in-out;
+
+            input {
+                width: 300px;
+                padding: 12px 15px;
+                font-size: 16px;
+                outline: none;
+                transition: all 0.3s ease-in-out;
+                border: none;
+
+                &::placeholder {
+                    color: #888;
+                }
+
+                @media (max-width: 600px) {
+                    width: 150px;
+                }
+
+                @media (max-width: 450px) {
+                    width: 200px;
+                }
+
+                @media (max-width: 330px) {
+                    width: 150px;
+                }
+            }
+
+            button {
+                border: none;
+                outline: none;
+                background: none;
+                transition-duration: 0.3s;
+
+                img {
+                    width: 35px;
+                    height: 35px;
+                }
+
+                &:active {
+                    transform: scale(0.9);
+                }
+            }
+        }
+
+        @media (max-width: 450px) {
+            order: 3;
+        }
+    }
+
+    &_right {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+
+        button {
+            border: none;
+            outline: none;
+            background: none;
+            position: relative;
+            transition-duration: 0.3s;
+
+            .count {
+                position: absolute;
+                left: -4px;
+                top: -4px;
+                color: white;
+                padding: 3px;
+                height: 13px;
+                width: 13px;
+                background-color: red;
+                border-radius: 5px;
+                z-index: 1;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .user_icon {
+                width: 20px;
+                height: 20px;
+                cursor: pointer;
+            }
+
+            .user_container {
+                position: absolute;
+                right: 5px;
+                bottom: -100px;
+            }
+
+            .user {
+                padding: 20px;
+                background-color: white;
+                border-radius: 5px;
+                z-index: 1;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
+
+                button {
+                    border: none;
+                    outline: none;
+                    background: none;
+                    display: flex;
+                    gap: 3px;
+                    align-items: center;
+                    font-size: 16px;
+                    cursor: pointer;
+
+                    img {
+                        width: 20px;
+                        height: 20px;
+                    }
+
+                    &:hover {
+                        color: rgb(5, 188, 82);
+                    }
+                }
+
+                div {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: end;
+                    gap: 10px;
+
+                    p {
+                        font-size: 16px;
+                    }
+
+                    a {
+                        text-decoration: none;
+                        color: black;
+                        display: flex;
+                        gap: 3px;
+                        align-items: center;
+                        font-size: 16px;
+
+                        img {
+                            width: 20px;
+                            height: 20px;
+                        }
+
+                        &:hover {
+                            color: rgb(5, 188, 82);
+                        }
+                    }
+                }
+            }
+        }
+
+        .navigation_panel_logo {
+            width: 30px;
+            height: 30px;
+            cursor: pointer;
+            transition: transform 0.2s ease-in-out;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+
+        .navigation_panel_logo_liked {
+            width: 19px;
+            height: 19px;
+            cursor: pointer;
+            transition: transform 0.2s ease-in-out;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+}

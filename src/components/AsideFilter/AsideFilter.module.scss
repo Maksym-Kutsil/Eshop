@@ -1,0 +1,41 @@
+.aside_item {
+
+    button {
+        border: none;
+        outline: none;
+        background: none;
+        display: flex;
+        gap: 10px;
+        justify-content: start;
+        align-items: center;
+        width: 100%;
+        padding: 10px 0;
+        cursor: pointer;
+
+        &:hover {
+            p, svg {
+                color: rgb(5,188,82);
+            }
+        }
+
+        svg {
+            min-width: 20px;
+            min-height: 20px;
+        }
+
+        p {
+            font-size: 17px;
+        }
+
+        @media (max-width: 700px) {
+            svg {
+                min-width: 14px;
+                min-height: 14px;
+            }
+    
+            p {
+                font-size: 11px;
+            }
+        }
+    }
+}
